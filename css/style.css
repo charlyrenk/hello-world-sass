@@ -1,2 +1,9 @@
-.helloWorld {
-  color: rgba(72, 180, 205, 0.728); }
+.banner {
+  font-family: 'Pacifico', cursive;
+  height: 400px;
+  border-top: 4px solid black;
+  border-bottom: 4px solid black; }
+  .banner .helloWorld {
+    color: rgba(72, 180, 205, 0.728);
+    font-size: 100px;
+    text-align: center; }

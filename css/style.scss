@@ -1,5 +1,14 @@
 $fancyBlue: rgba(72, 180, 205, 0.728);
-
-.helloWorld {
-    color: $fancyBlue;   
+.banner {
+    font-family: 'Pacifico', cursive;
+    height: 400px;
+    border: {
+        top: 4px solid black;
+        bottom: 4px solid black;
+    }
+    .helloWorld {
+        color: $fancyBlue;
+        font-size: 100px;
+        text-align: center;
+    }
 }
