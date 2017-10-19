@@ -19,3 +19,11 @@ $fancyBlue: rgba(72, 180, 205, 0.728);
 
 //import
 @import 'import';
+
+//extend
+.extended{
+    @extend .banner;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 100px;
+    text-align: center;
+}

@@ -1,12 +1,17 @@
-.banner {
+.banner, .extended {
   font-family: 'Pacifico', cursive;
   height: 400px;
   border-top: 4px solid black;
   border-bottom: 4px solid black; }
-  .banner .helloWorld {
+  .banner .helloWorld, .extended .helloWorld {
     color: rgba(72, 180, 205, 0.728);
     font-size: 100px;
     text-align: center; }
 
 body {
   background-color: #daafaf; }
+
+.extended {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 100px;
+  text-align: center; }
