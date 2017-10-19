@@ -1,4 +1,8 @@
+//variables
+
 $fancyBlue: rgba(72, 180, 205, 0.728);
+
+//nesting
 .banner {
     font-family: 'Pacifico', cursive;
     height: 400px;
@@ -11,4 +15,7 @@ $fancyBlue: rgba(72, 180, 205, 0.728);
         font-size: 100px;
         text-align: center;
     }
-}
+};
+
+//import
+@import 'import';
